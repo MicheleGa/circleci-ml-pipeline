@@ -78,7 +78,7 @@ jobs:
   test:
     # For running on CircleCI's self-hosted runners - details taken from environment variables
     machine: true
-    resource_class: RUNNER_NAMESPACE/RUNNER_RESOURCE_CLASS # Update this to reflect your self-hosted runner resource class details
+    resource_class: mlops/container # Update this to reflect your self-hosted runner resource class details
     steps: # Steps in jobs are run sequentially
       - attach_workspace:
           at: .
