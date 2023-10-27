@@ -8,6 +8,8 @@ Thus, this example uses a simple TensorFlow/Keras-based ML workflow, as the focu
 
 ## Credits
 
+This repository had been forked from https://github.com/CIRCLECI-GWP/circleci-ml-pipeline
+
 The code in this repository is adapted from the following TensorFlow tutorial:
 
 [https://github.com/tensorflow/tfx/blob/master/docs/tutorials/serving/rest_simple.ipynb](https://github.com/tensorflow/tfx/blob/master/docs/tutorials/serving/rest_simple.ipynb)
