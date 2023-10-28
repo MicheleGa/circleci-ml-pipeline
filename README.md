@@ -8,8 +8,6 @@ Thus, this example uses a simple TensorFlow/Keras-based ML workflow, as the focu
 
 ## Credits
 
-This repository had been forked from https://github.com/CIRCLECI-GWP/circleci-ml-pipeline
-
 The code in this repository is adapted from the following TensorFlow tutorial:
 
 [https://github.com/tensorflow/tfx/blob/master/docs/tutorials/serving/rest_simple.ipynb](https://github.com/tensorflow/tfx/blob/master/docs/tutorials/serving/rest_simple.ipynb)
@@ -92,6 +90,7 @@ The scripts in the `ml` directory provide the core functionality. Each script co
 * A CircleCI account and a GitHub account.
     * See the [CircleCI quickstart guide](https://circleci.com/docs/getting-started/) to learn how to get up and running with both.
     * You can fork the example repository for this tutorial from your own GitHub account and use it as the basis for your CircleCI project.
+    * The Deploy key used to connect CircleCI to GitHub must be generated with an **empty passphrase** key.
 * A CircleCI self-hosted runner.
     * This can be a local machine or set up as part of an [auto-scaling deployment](https://circleci.com/blog/autoscale-self-hosted-runners-aws/) for larger workloads.
     * See **Python** below for installing additional requirements for the runner.

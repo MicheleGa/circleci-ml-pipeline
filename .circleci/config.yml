@@ -89,7 +89,6 @@ jobs:
     # For running on CircleCI's self-hosted runners - details taken from environment variables
     machine: true
     resource_class: mlops/container # Update this to reflect your self-hosted runner resource class details
-
     steps:
       - attach_workspace:
           at: .
@@ -110,7 +109,6 @@ jobs:
     # For running on CircleCI's self-hosted runners - details taken from environment variables
     machine: true
     resource_class: mlops/container # Update this to reflect your self-hosted runner resource class details
-
     steps:
       - attach_workspace:
           at: .
@@ -121,7 +119,6 @@ jobs:
     # For running on CircleCI's self-hosted runners - details taken from environment variables
     machine: true
     resource_class: mlops/container # Update this to reflect your self-hosted runner resource class details
-
     steps:
       - attach_workspace:
           at: .
