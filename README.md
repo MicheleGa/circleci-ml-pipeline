@@ -77,7 +77,7 @@ The scripts in the `ml` directory provide the core functionality. Each script co
 
 * Deploying a model doesn’t mean it’s finished. New data will arrive that can be used to retrain it to improve its accuracy.
 * In this example, a retraining step can replace the training step in this workflow to retrain an existing model rather than creating a new one.
-* To see this scheduled workflow in action, you will need to create a branch in your Git repository named `retrain` (need a push to the new branch to atually sync Circle CI).
+* To see this scheduled workflow in action, you will need to create a branch in your Git repository named `retrain` (need few pushes to the new branch to actually sync Circle CI).
 * _Note that in this script, the testing step is designed to fail! This is so that you can see what a failed job looks like when this script is added to a job in CircleCI. Comment out the exception in the Python script to see it succeed._
 
 #### 7. Test deployed model
